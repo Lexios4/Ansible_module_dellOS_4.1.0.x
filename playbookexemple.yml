@@ -1,0 +1,14 @@
+- hosts: localhost
+
+
+  tasks:
+    - name: maj switch 5548
+      dell5548comand:
+        ansible_become_method: "enable"
+        ansible_ssh_pass: "motdepass"
+        ansible_ssh_user: "root"
+        commands: "show running-config"
+        ansible_pathtoswitch_inventory: "/path_to_your_inventory/inventorypcexemple.yaml"
+      register: result
+
+    - debug: var=result

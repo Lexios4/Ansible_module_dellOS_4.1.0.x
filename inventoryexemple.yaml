@@ -1,0 +1,13 @@
+[powerconnect]
+host1 ansible_host=addresshost1 
+host2 ansible_host=addresshost2 
+[dellos6]
+host3 ansible_host=addresshost3 
+host4 ansible_host=addresshost4 
+[dellos9]
+host5 ansible_host=addresshost5 
+host6 ansible_host=addresshost6 
+[dellos10]
+host7 ansible_host=addresshost7 
+host8 ansible_host=addresshost8 
+
