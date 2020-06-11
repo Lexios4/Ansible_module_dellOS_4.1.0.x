@@ -22,7 +22,7 @@ You need to :
  - to add an inventory from the example.
  - to create the playbook from the example.
 
-## Démarrage
+## Run it
 
 You can execute you're playbook like this ``ansible-playbook  exempleplaybook.yml``.
 
