@@ -34,6 +34,6 @@ It could be usefull to know that i dynamically create expect script _(in the del
 
 
 ## Authors
-* **Gaetan GIANQUINTIERI**
+* **Lexios4**
 
 
